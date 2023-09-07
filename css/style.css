@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    h1,h2,h3,h4,h5,h6,p{
+    
+    margin: 0;
+    padding: 0;
+    }
+    body{
+    
+        font-family: 'Poppins', sans-serif;
+    }
+
+
+
+    .bg{background-image: url(../images/thunderstorm-3441687_1280.jpg);background-position: center;background-repeat: no-repeat;background-size: cover;min-height: 100vh;padding: 150px 0;}
+    .heading{
+    
+    color: #fff;
+    
+    font-size: 24px;
+    
+    text-align: center;
+    
+    margin-bottom: 30px;
+    }
+    .contact_form{
+        
+    width: 70%;
+        
+    margin: auto;
+        
+    display: flex;
+        
+    justify-content: space-between;
+    }
+    .contact_info{
+    
+    width: 48%;
+    }
+    
+    
+    .contact_info h3{
+    
+    color: #fff;
+    
+    font-size: 25px;
+    
+    margin-bottom: 30px;
+    }
+    
+    
+    .info_box{
+    
+display: flex;
+    
+margin-bottom: 30px;
+    }
+    
+    .icon{
+    
+color: #fff;
+    
+width: 30px;
+    
+font-size: 25px;
+    }
+    
+    .info{
+    
+    color: #fff;
+    }
+    
+    .info h4{
+    
+font-size: 22px;
+    
+line-height: 0;
+    }
+    
+    
+    .info p{
+    
+margin-top: 8px;
+    }
+    
+    .main_form{
+    
+    width: 48%;
+    }
+    .form{
+    
+background: #fff;
+    
+padding: 30px;
+    
+border-radius: 10px;
+    }
+    
+    .form h2{
+    
+margin-bottom: 30px;
+    }
+    
+    .form form input{
+    
+width: 100%;
+    
+margin-bottom: 15px;
+    
+padding: 15px 0px 10px;
+    
+border:  #dedede;
+    }
+    .form form input[type="submit"]{
+        
+width: auto;
+        
+/* padding: 0; */
+        
+background: blue;
+        
+color: #fff;
+        
+padding: 15px 25px;
+        
+border-radius: 7px;
+        
+font-size: 16px;
+    }
+    .form form textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 15px 0px 10px;
+    border:1px solid  #dedede;
+    }
+    .form form input:focus, . form form textarea:focus{
+        outline: none;
+        box-shadow: 1px 1px 1px #00000021;
+    }
